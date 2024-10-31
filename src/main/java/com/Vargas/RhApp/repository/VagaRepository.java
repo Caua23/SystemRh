@@ -8,5 +8,5 @@ import com.Vargas.RhApp.Models.Vaga;
 public interface VagaRepository extends CrudRepository<Vaga, String>{
     Vaga findByCodigo(long codigo);
 
-    List<Vaga> findByNome(String nome);;
+    List<Vaga> findByNome(String nome);
 }
